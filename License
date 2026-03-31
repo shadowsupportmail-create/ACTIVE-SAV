@@ -1,0 +1,30 @@
+
+---
+
+## 🚀 How to Deploy to GitHub Pages
+
+### Step 1: Create a GitHub Repository
+
+1. Go to [github.com](https://github.com) and sign in
+2. Click the **+** icon → **New repository**
+3. Name it: `shadow-save-editor`
+4. Make it **Public**
+5. Click **Create repository**
+
+### Step 2: Upload Files
+
+**Option A: Via Web Browser (Easiest)**
+1. In your new repo, click **Add file** → **Upload files**
+2. Drag and drop:
+   - `index.html`
+   - `README.md`
+3. Click **Commit changes**
+
+**Option B: Via Git Commands**
+```bash
+git clone https://github.com/YOUR_USERNAME/shadow-save-editor.git
+cd shadow-save-editor
+# Copy index.html and README.md here
+git add .
+git commit -m "Initial commit - Save Editor"
+git push origin main
